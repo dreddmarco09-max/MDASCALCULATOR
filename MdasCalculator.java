@@ -23,7 +23,7 @@ public class MdasCalculator {
             case '*' -> result = Multiplication(num1, num2);
             case '/' -> result = Division(num1,num2);
             case '-' -> result = Subraction(num1, num2);
-            case '+' -> resuslt = Addition(num1, num2);
+            case '+' -> result = Addition(num1, num2);
         }
 
         System.out.println("Result: " + result);
